@@ -9,10 +9,10 @@
 #define HOST "yandex.ru"
 #define RELAY_PIN D2 // Порт Реле
 #define LED_PIN D4 // Порт светодиода ESP8266
-#define DELAY_PIN 600000 // Пауза для ping'а
+#define DELAY_PIN 60000 // Пауза для ping'а
 #define DELAY_RELOAD 10000 // Пауза для перезагрузки
 #define DELAY_TO_OFF_WIFI 2000 // Пауза для ожидания полного выключения роутера
-#define DELAY_TO_ON_WIFI 60000 // Пауза для ожидания запуска точки доступа на роутере
+#define DELAY_TO_ON_WIFI 600000 // Пауза для ожидания запуска точки доступа на роутере
 #define ERRORS_COUNT 2 // Максимальное кол-во возможных ошибок при ping'е
 
 bool b_lastPing = false;
